@@ -1,20 +1,30 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
     padding: 0;
-    text-decoration: none;
-    font-family:'Arvo', serif;
+    margin: 0;
 }
 
-.h1{
-    color: hotpink;
-    border-color: aliceblue;
+html{
+    scroll-behavior: smooth;
+}
+
+#menu{
+    color:#6E57E0 ;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    font-size: 1.2em;
+    position: sticky;
+    
+    
+    
     
 }
-.top{
-    background-color: aliceblue;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-}
 
+.menu
+
+/* colour = #6E57E0*/
+/* hsl(250, 69%, 61%)*/
