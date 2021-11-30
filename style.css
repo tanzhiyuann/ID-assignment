@@ -367,7 +367,7 @@
 }
 
 .menu li a{
-    font-family: 'Arvo', serif;
+    font-family: 'Merriweather', serif;
 }
 
 #home-icon{
@@ -454,7 +454,7 @@ nav ul li a{
     align-items: center;
 }
 
-.backward{
+.apos{
     width: 50px;
     height: auto;
 }
@@ -490,20 +490,28 @@ section div{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #8C92AC; */
     
 }
 
 .social-media li{
     margin: 0 10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size:25px;
     font-weight: bold;
     
 }
 
 .social-media li a{
     color: #6E57E0;
+    
+   
+    
+}
+
+.social-media li a :hover{
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 50%;
 }
 
 
@@ -515,3 +523,4 @@ section div{
 /* purple = #6E57E0*/
 /* hsl(250, 69%, 61%)*/
 /* font-family: 'Arvo', serif; */
+/* font-family: 'Merriweather', serif; */
