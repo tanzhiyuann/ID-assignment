@@ -70,15 +70,33 @@ span{
 
 
 
+
 .image{
-    width: 28%;
-    height: auto;
+    width: 25%;
+    height: 50%;
     bottom: 90px;
     right: 80px;
     top: 200px;
     position: absolute;
+    border-radius: 50%;
     
 
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    margin-top: 20%;
+
+}
+.section div{
+    display: inline-block;
+}
+
+#special{
+    color: #6E57E0;
+    font-size: 2rem;
 }
 
 
