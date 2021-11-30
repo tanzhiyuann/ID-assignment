@@ -395,7 +395,7 @@ nav ul li a{
     
 }
 
-nav ul li a:hover{
+.menu ul li a:hover{
     color: white;
     transition: all 0.1s;
     border-style: solid;
@@ -426,6 +426,8 @@ nav ul li a:hover{
 
 
 
+
+
 .image-1{
     width: 25%;
     height: 50%;
@@ -441,7 +443,6 @@ nav ul li a:hover{
 .about{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     background-color: white;
     margin-top: 35%;
     margin-bottom: 5%;
@@ -452,11 +453,16 @@ nav ul li a:hover{
     align-items: center;
 }
 
+.backward{
+    width: 50px;
+    height: auto;
+}
+
 
 #special{
     color: #6E57E0;
     font-size: 2rem;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     position: relative;
 
 }
@@ -471,21 +477,37 @@ nav ul li a:hover{
     bottom: 0;
 }
 
-section .backward{
-   width: 5%;
-   height: auto;
-   
-}
 
 section div{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
-    
-    
 
 }
+
+.social-media  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #8C92AC; */
+    
+}
+
+.social-media li{
+    margin: 0 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.social-media li a{
+    color: #6E57E0;
+}
+
+
+
+
 
 /* cream = #FEFBEA*/
 /* cool grey = #8C92AC*/ 
