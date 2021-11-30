@@ -364,9 +364,10 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-   
-    
-    
+}
+
+.menu li a{
+    font-family: 'Arvo', serif;
 }
 
 #home-icon{
@@ -513,3 +514,4 @@ section div{
 /* cool grey = #8C92AC*/ 
 /* purple = #6E57E0*/
 /* hsl(250, 69%, 61%)*/
+/* font-family: 'Arvo', serif; */
