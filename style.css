@@ -364,17 +364,20 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: #C7D3D4;
+   
     
     
 }
 
 #home-icon{
-    font-size: 5em;
+    font-size: 5rem;
     color: #6E57E0 ;
     margin-left: 15px;
+
     
 }
+
+
 
 nav ul li{
     
@@ -407,6 +410,7 @@ nav ul li a:hover{
 .start{
     margin-left: 10%;
     margin-top: 15%;
+    font-size: 25px;
    
 }
 
@@ -438,19 +442,52 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: aliceblue;
-    margin-top: 25%;
-    padding: 100px;
-
+    background-color: white;
+    margin-top: 35%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    box-shadow: 0 -1px 4px  rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem;
+    align-items: center;
 }
 
 
 #special{
     color: #6E57E0;
     font-size: 2rem;
+    margin-bottom: 80px;
+    position: relative;
+
 }
 
+#special::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color:  #8C92AC;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
+section .backward{
+   width: 5%;
+   height: auto;
+   
+}
 
-/* colour = #6E57E0*/
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+    
+
+}
+
+/* cream = #FEFBEA*/
+/* cool grey = #8C92AC*/ 
+/* purple = #6E57E0*/
 /* hsl(250, 69%, 61%)*/
