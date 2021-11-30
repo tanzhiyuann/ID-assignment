@@ -7,24 +7,79 @@
     margin: 0;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
-#menu{
-    color:#6E57E0 ;
+nav{
     display: flex;
-    justify-content:center ;
-    align-items:center ;
-    font-size: 1.2em;
-    position: sticky;
-    
-    
+    width: 100%;
+    margin: auto;
+    padding:20px, 0;
+    align-items: center;
+    justify-content: space-between;
     
     
 }
 
-.menu
+#home{
+    font-size: 5em;
+    color: #6E57E0 ;
+    margin-left: 15px;
+    
+}
+
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-weight: bold;
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: all 0.1s;
+    border-style: solid;
+    background-color: #6E57E0;
+    border-radius: 20px;
+    padding: 8px;
+    border-color: black;
+    
+    
+}
+
+.about{
+    margin-left: 10%;
+    margin-top: 15%;
+   
+}
+
+span{
+    color: #6E57E0;
+}
+
+.about h1{
+    margin-bottom: 30px;
+}
+
+
+
+
+.image{
+    width: 28%;
+    height: auto;
+    bottom: 90px;
+    right: 100px;
+    position: absolute;
+
+}
+
+
 
 /* colour = #6E57E0*/
 /* hsl(250, 69%, 61%)*/
