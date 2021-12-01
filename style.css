@@ -477,6 +477,7 @@ header nav ul li{
 .apos{
     width: 50px;
     height: auto;
+
 }
 
 
@@ -500,7 +501,7 @@ header nav ul li{
 }
 
 
-section div{
+.about div{
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -561,14 +562,57 @@ section div{
   display: flex;
   justify-content: center;
 
-
 }
 
 .h1{
+  display: flex;
+  margin-top: 300px;
+  margin-bottom: 80px;
+  word-spacing: 20px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.h1::after{
+  content: "";
   position: absolute;
-  top: 200px;
+  background-color: aqua;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
 
 }
+
+.skills-container{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.skills-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  text-align: center;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+.skills-box img{
+  display: flex;
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
 
 
 
