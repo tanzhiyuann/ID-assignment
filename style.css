@@ -374,9 +374,28 @@
     font-size: 5rem;
     color: #6E57E0 ;
     margin-left: 15px;
-
-    
+    position: relative;
 }
+#home-icon::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color:  #8C92AC;
+    position: absolute;
+    bottom:0;
+    left: 0; 
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+
+#home-icon:hover::after{
+  transform: scale(1,1);
+  border-radius: 10px;
+}
+    
+    
+
+
 
 
 
@@ -398,12 +417,13 @@ nav ul li a{
 
 .menu ul li a:hover{
     color: white;
-    transition: all 0.1s;
+    transition: all 0.1s ease;
     border-style: solid;
     background-color: #6E57E0;
     border-radius: 20px;
     padding: 8px;
     border-color: black;
+    box-shadow: 0 0 10px #8C92AC;
     
     
 }
@@ -437,6 +457,9 @@ nav ul li a{
     top: 200px;
     position: absolute;
     border-radius: 50%;
+    box-shadow: 0 0 3px #8C92AC;
+
+    
     
 
 }
@@ -465,6 +488,7 @@ nav ul li a{
     font-size: 2rem;
     margin-bottom: 50px;
     position: relative;
+    
 
 }
 
@@ -512,8 +536,14 @@ section div{
     border-style: solid;
     border-color: whitesmoke;
     border-radius: 50%;
-    
+    box-shadow: 0 0 10px #8C92AC;
+
+
 }
+
+/* first page done */
+
+
 
 
 
