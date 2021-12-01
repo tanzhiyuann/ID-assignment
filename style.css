@@ -594,10 +594,28 @@ header nav ul li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-style: solid;
   text-align: center;
   width: 400px;
   padding-bottom: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  
+ 
+}
+
+.skills-box:hover{
+  box-shadow: 0 0 0.2rem #fff,
+              0 0 0.2rem #fff, 
+              0 0 0.2rem #6E57E0, 
+              0 0 0.2rem #6E57E0,
+              0 0 0.2rem #6E57E0,
+        inset 0 0 1.3rem #6E57E0;
+        transition: 0.7s;
+  animation: anim 1.5s infinite alternate;
+  border-style: none;
+  
+  
+
 }
 
 .skills-box img{
@@ -605,6 +623,58 @@ header nav ul li{
   align-self: flex-end;
 }
 
+#skills-icon{
+  color: #2b1c72;
+  font-size: 4rem;
+}
+
+.heading{
+  margin-left: 15px;
+  position: relative;
+}
+.heading::after{
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: #6E57E0;
+  position: absolute;
+  bottom:0;
+  left: 0; 
+  transform: scale(0, 1);
+  transition: transform 0.3s ease;
+}
+
+.heading:hover::after{
+transform: scale(1,1);
+border-radius: 10px;
+}
+
+.overview-social-media  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.overview-social-media li{
+  margin: 0 10px;
+  font-size:30px;
+  font-weight: bold;
+  display: inline-block;    
+}
+
+.overview-social-media li a{
+  color: #6E57E0;
+  
+ 
+  
+}
+
+.overview-social-media li a :hover{
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #8C92AC;
 
 
 
@@ -619,10 +689,11 @@ header nav ul li{
 
 
 
-
+/* lamp black =  #231F20 */
 /* cream = #FEFBEA*/
 /* cool grey = #8C92AC*/ 
 /* purple = #6E57E0*/
+/* soft black = #181A18*/
 /* hsl(250, 69%, 61%)*/
 /* font-family: 'Arvo', serif; */
 /* font-family: 'Merriweather', serif; */
