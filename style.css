@@ -550,7 +550,7 @@ header nav ul li{
   background: url("images/ID.png");
   background-size: cover;
   background-position: center;
-  height: 1050px;
+  height: 1700px;
   width: 100%;
   position: absolute;
   opacity: 0.8;
@@ -605,6 +605,7 @@ header nav ul li{
   
  
 }
+/* neon border hovering effect */
 
 .skills-box:hover{
   box-shadow: 0 0 0.2rem #fff,
@@ -652,35 +653,15 @@ transform: scale(1,1);
 border-radius: 10px;
 }
 
-.overview-social-media  {
+.overview-social-media ul  {
+  background-color: #181A18;
+  position: absolute;
   display: flex;
-  justify-content:center;
-  
-  
-}
 
-.overview-social-media li{
-  margin: 0 10px;
-  font-size:30px;
-  font-weight: bold;
-  display: inline-block;  
-  margin-bottom: 0;
-}
-
-.overview-social-media li a{
-  color: #181A18; 
-  
- 
   
 }
 
-.overview-social-media li a :hover{
-  border-style: solid;
-  border-color: whitesmoke;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #8C92AC;
 
-}
 
 #css{
   color: rgb(61, 217, 228);
@@ -703,6 +684,42 @@ border-radius: 10px;
 .langauges{
   font-weight: bold;
 }
+
+.skill-level-container{
+  
+  padding-top: 260px;
+  padding-left: 20%;
+  padding-right: 40px;
+
+}
+
+.languages-level-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.languages-level-name,.languages-level-percentage{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.languages-box{
+  border: 2px solid ;
+  border-radius: 10px;
+}
+
+
+
+
+
+.skills-bar{    
+  height: 5px;
+  border-radius: .25em;
+  background-color: #6E57E0;
+}
+
+
 
 
 
