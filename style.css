@@ -802,8 +802,10 @@ border-style: none;
 }
 
 .overview-footer{
+  position: relative;
   padding-top: 100px;
   background-color: whitesmoke;
+  z-index: -100;
   
 }
 
