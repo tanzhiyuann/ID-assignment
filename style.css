@@ -696,9 +696,7 @@ border-radius: 10px;
   padding-top: 260px;
   padding-left: 30%;
   padding-right: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: whitesmoke;
 }
 
 
@@ -715,8 +713,6 @@ border-radius: 10px;
 
 .languages-box{
   border-radius: 15px;
-  background-size: cover;
-  background-position: center;
   padding-bottom: 30px;
   border: 2px solid;
   border-color:#181A18;
@@ -790,7 +786,7 @@ padding-left: 27%;
 }
 
 
-.languages-box:hover{
+.languages-box{
   box-shadow: 0 0 0.2rem black ,
   0 0 0.2rem black, 
   0 0 0.2rem #6E57E0 , 
@@ -805,8 +801,11 @@ border-style: none;
 
 .overview-footer{
   padding-top: 100px;
+  background-color: whitesmoke;
   
 }
+
+/* page 2 done */
 
 
 
