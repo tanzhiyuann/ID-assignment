@@ -364,6 +364,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu li a{
