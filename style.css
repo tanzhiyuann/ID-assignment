@@ -717,6 +717,9 @@ border-radius: 10px;
   border-radius: 15px;
   background-size: cover;
   background-position: center;
+  padding-bottom: 30px;
+  border: 2px solid;
+  border-color:#181A18;
 }
 
 
@@ -787,7 +790,7 @@ padding-left: 27%;
 }
 
 
-.languages-box{
+.languages-box:hover{
   box-shadow: 0 0 0.2rem black ,
   0 0 0.2rem black, 
   0 0 0.2rem #6E57E0 , 
@@ -798,6 +801,11 @@ inset 0 0 1.3rem #6E57E0 ;
 transition: 0.3s;
 animation: anim 1.5s infinite alternate;
 border-style: none;
+}
+
+.overview-footer{
+  padding-top: 100px;
+  
 }
 
 
