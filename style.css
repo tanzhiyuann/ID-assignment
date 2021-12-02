@@ -351,8 +351,12 @@
 
 
 /*Google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
 *{
+  
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -378,6 +382,7 @@
     margin-left: 15px;
     position: relative;
 }
+
 #home-icon::after{
     content: '';
     height: 4px;
@@ -689,10 +694,14 @@ border-radius: 10px;
 .skill-level-container{
   
   padding-top: 260px;
-  padding-left: 20%;
-  padding-right: 40px;
-
+  padding-left: 30%;
+  padding-right: 30%;
+  background: url('https://wallpaperbat.com/img/104359-plain-black-wallpaper-large-hd-wallpaper-database-black-wood.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .languages-level-box{
   display: flex;
@@ -706,18 +715,94 @@ border-radius: 10px;
 }
 
 .languages-box{
-  border: 2px solid ;
-  border-radius: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
 }
 
 
 
 
 
-.skills-bar{    
+.skills-bar,
+.skills-bar-pecentage {    
   height: 5px;
-  border-radius: .25em;
-  background-color: #6E57E0;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  
+}
+
+
+
+.skills-bar{
+  background-color: #8C92AC;
+}
+
+.skills-bar-pecentage {
+  display: block;
+  background-color: #4D4DFF;
+  
+  
+}
+.py:hover,
+.csharp:hover,
+.sql:hover,
+.css:hover,
+.javascript:hover{
+  box-shadow: 0 0 0.2rem #fff,
+              0 0 0.2rem #fff, 
+              0 0 0.2rem #6E57E0, 
+              0 0 0.2rem #6E57E0,
+              0 0 0.2rem #6E57E0,
+        inset 0 0 1.3rem #6E57E0;
+        transition: 0.3s;
+  animation: anim 1.5s infinite alternate;
+  border-style: none;
+}
+
+.py{
+  width: 70%;
+}
+
+.csharp{
+  width: 90%;
+}
+
+.sql{
+  width: 76%;
+}
+
+.css{
+  width: 86%;
+}
+
+.javascript{
+  width: 66%;
+}
+
+.languages-level{
+font-family: 'M PLUS 1 Code', sans-serif;
+padding-left: 27%;
+color: white;
+  
+
+}
+
+.languages-level-name,.languages-level-percentage{
+  color: white;
+}
+
+.languages-box{
+  box-shadow: 0 0 0.2rem black ,
+  0 0 0.2rem black, 
+  0 0 0.2rem #6E57E0 , 
+  0 0 0.2rem #6E57E0 , 
+  0 0 0.2rem #6E57E0 ,
+  0 0 0.2rem #6E57E0 ,
+inset 0 0 1.3rem #6E57E0 ;
+transition: 0.3s;
+animation: anim 1.5s infinite alternate;
+border-style: none;
 }
 
 
@@ -743,3 +828,4 @@ border-radius: 10px;
 /* font-family: 'Arvo', serif; */
 /* font-family: 'Merriweather', serif; */
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'M PLUS 1 Code', sans-serif; */
