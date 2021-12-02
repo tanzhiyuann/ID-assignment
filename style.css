@@ -478,6 +478,7 @@ header nav ul li{
     box-shadow: 0 -1px 4px  rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .apos{
@@ -518,6 +519,7 @@ header nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
