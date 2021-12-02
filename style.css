@@ -696,7 +696,6 @@ border-radius: 10px;
   padding-top: 260px;
   padding-left: 30%;
   padding-right: 30%;
-  background: url('https://wallpaperbat.com/img/104359-plain-black-wallpaper-large-hd-wallpaper-database-black-wood.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -783,14 +782,10 @@ border-radius: 10px;
 .languages-level{
 font-family: 'M PLUS 1 Code', sans-serif;
 padding-left: 27%;
-color: white;
   
 
 }
 
-.languages-level-name,.languages-level-percentage{
-  color: white;
-}
 
 .languages-box{
   box-shadow: 0 0 0.2rem black ,
