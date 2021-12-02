@@ -549,7 +549,7 @@ header nav ul li{
   background: url("images/ID.png");
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 1050px;
   width: 100%;
   position: absolute;
   opacity: 0.8;
@@ -586,6 +586,7 @@ header nav ul li{
 .skills-container{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   
 }
 
@@ -599,6 +600,7 @@ header nav ul li{
   padding-bottom: 10px;
   border-radius: 20px;
   border-style: solid;
+
   
  
 }
@@ -651,8 +653,8 @@ border-radius: 10px;
 
 .overview-social-media  {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  
   
 }
 
@@ -660,11 +662,12 @@ border-radius: 10px;
   margin: 0 10px;
   font-size:30px;
   font-weight: bold;
-  display: inline-block;    
+  display: inline-block;  
+  margin-bottom: 0;
 }
 
 .overview-social-media li a{
-  color: #6E57E0;
+  color: #181A18; 
   
  
   
@@ -676,6 +679,29 @@ border-radius: 10px;
   border-radius: 50%;
   box-shadow: 0 0 10px #8C92AC;
 
+}
+
+#css{
+  color: rgb(61, 217, 228);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#html{
+  color: rgb(214, 62, 24);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#java{
+  color: rgb(243, 247, 6);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.langauges{
+  font-weight: bold;
+}
 
 
 
