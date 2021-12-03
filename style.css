@@ -882,7 +882,7 @@ input:focus~label{
   
 }
 
-
+textarea:valid~label,
 textarea:focus~label{
   color: transparent;
   transition: 0.3s ease;
