@@ -817,7 +817,7 @@ border-style: none;
   display: flex;
   background-color: whitesmoke;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   
 }
 
@@ -830,20 +830,36 @@ border-style: none;
 
 .user{
   margin-bottom: 30px;
+  position: relative;
 }
 
 input,textarea{
   font-size: 15px;
   padding: 10px;
   outline: 0;
-  border: 2px solid ;
+  border: 1px solid ;
   width: 100%;
-  background-color: aqua;
+  background-color: transparent;
 
 }
 
 label{
-  /* width: 100%; */
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  cursor: text;
+  
+}
+
+.button{
+  padding: 10px;
+  font-weight: bold;
+  background: transparent;
+  border: solid 1px black;
+  color:#6E57E0;
+  border-radius: 15px;
 }
 
 
