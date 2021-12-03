@@ -937,8 +937,10 @@ textarea:focus~label{
 }
 
 @media all and (max-width:700px){
+  
   .image-1{
     width: 0;
+    height: 0;
     
 }
  
