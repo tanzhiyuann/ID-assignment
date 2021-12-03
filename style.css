@@ -806,7 +806,6 @@ border-style: none;
   padding-top: 100px;
   background-color: whitesmoke;
   z-index: -100;
-  
 }
 
 /* page 2 done */
@@ -818,6 +817,13 @@ border-style: none;
   background-color: whitesmoke;
   justify-content: center;
   align-items: center;
+  background: url('https://wallpapertag.com/wallpaper/middle/e/4/3/498825-binary-code-wallpaper-1920x1200-samsung.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+  
+  
   
 }
 
@@ -825,6 +831,7 @@ border-style: none;
   color: #6E57E0;
   width: 90%;
   max-width: 600px;
+  margin: 50px 0;
   
 }
 
@@ -833,13 +840,15 @@ border-style: none;
   position: relative;
 }
 
-input,textarea{
+input, textarea{
+  width: 100%;
   font-size: 15px;
   padding: 10px;
   outline: 0;
-  border: 1px solid ;
-  width: 100%;
+  border: 1px solid black ;
+  box-shadow: 0 0 2px;
   background-color: transparent;
+  color: white;
 
 }
 
@@ -859,10 +868,60 @@ label{
   background: transparent;
   border: solid 1px black;
   color:#6E57E0;
-  border-radius: 15px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+
+}
+input:valid~label,
+input:focus~label{
+   top: -35px;
+   font-size: 14px;
+   transition: 0.3s;
+  
 }
 
 
+textarea:focus~label{
+  color: transparent;
+  transition: 0.3s ease;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.row .user{
+  flex-basis: 48%;
+}
+
+
+
+.button:hover{
+    color: white;
+    transition: all 0.2s ease;
+    border-style: solid;
+    background-color: #6E57E0;
+    padding: 8px;
+    border-color: black;
+    box-shadow: 0 0 10px #8C92AC;
+  
+}
+
+.form h3{
+  color: #181A18;
+  margin-left: 250px;
+  margin-bottom: 35px;
+  
+}
+
+
+
+
+/* 425px no profile pic */
 
 
 
