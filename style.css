@@ -811,6 +811,41 @@ border-style: none;
 
 /* page 2 done */
 
+/* form section below */
+
+.form-section{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+.form{
+  color: #6E57E0;
+  width: 90%;
+  max-width: 600px;
+  
+}
+
+.user{
+  margin-bottom: 30px;
+}
+
+input,textarea{
+  font-size: 15px;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid ;
+  width: 100%;
+  background-color: aqua;
+
+}
+
+label{
+  /* width: 100%; */
+}
+
 
 
 
