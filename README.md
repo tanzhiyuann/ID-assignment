@@ -1,4 +1,4 @@
-# Id Assignment projeect 1 (personal profile)
+# ID Assignment projeect 1 (personal profile)
 
 <h3>Overview of the Project</h3>
 <p>This project aims to design and develop a front-end responsive website using HTML, CSS, Javascript and modern web development techniques. It would be a website about my own portfolio such as my skills and to showcase my coding skills by making the website attractive with animations and pictures and icons to build my website and make it look professional. The website is also to show my "employer" that with the skills i have, i would be a great employee to their companies.<p>
@@ -6,7 +6,7 @@
 <h3>Design Process</h3>
 I get inspirations from videos about css, html and javascript to then create their own website and really professional looking. By doing portfolio website, i can also learn how to create my own personal website and in the future it would be useful to me if i were to build my own company and start ups.
 
-<h3>Themep</h3>
+<h3>Theme</h3>
 Purple colours was used for menu options and icons as i feel that is it nice-looking
 
 <h3>User Stories</h3>
