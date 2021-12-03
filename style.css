@@ -919,10 +919,29 @@ textarea:focus~label{
   
 }
 
-@media screen {
-  
+@media (max-width: 1220px){
+  .page2::before{
+    display: flex;
+    content: "";
+    background: url("");
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    height: 1050px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+
+
 }
 
+@media all and (max-width:700px){
+  .image-1{
+    width: 0;
+    
+}
+ 
 
 
 
