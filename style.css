@@ -575,7 +575,7 @@ header nav ul li{
 
 .h1{
   display: flex;
-  margin-top: 300px;
+  margin-top: 250px;
   margin-bottom: 80px;
   word-spacing: 20px;
   letter-spacing: 0.5px;
@@ -644,6 +644,8 @@ header nav ul li{
   margin-left: 15px;
   position: relative;
 }
+
+/* purple underline when hovering headings like frontend developer */
 .heading::after{
   content: '';
   height: 4px;
@@ -814,10 +816,9 @@ border-style: none;
 
 .form-section{
   display: flex;
-  background-color: whitesmoke;
   justify-content: center;
   align-items: center;
-  background: url('https://wallpapertag.com/wallpaper/middle/e/4/3/498825-binary-code-wallpaper-1920x1200-samsung.jpg');
+  background: url('https://th.bing.com/th/id/R.79fa33648f089685cf48673fde73e55e?rik=DsDVNml8mGxOsQ&riu=http%3a%2f%2fmtpocketranch.com%2fweb%2fwp-content%2fuploads%2f2017%2f03%2fmtp-background2.jpg&ehk=Cycc6SjdwrFCIuhH59SG0jHKItBvLE%2f252mvi%2bvObGA%3d&risl=&pid=ImgRaw&r=0');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -845,7 +846,7 @@ input, textarea{
   font-size: 15px;
   padding: 10px;
   outline: 0;
-  border: 1px solid black ;
+  border: 1px solid whitesmoke ;
   box-shadow: 0 0 2px;
   background-color: transparent;
   color: white;
@@ -866,7 +867,7 @@ label{
   padding: 10px;
   font-weight: bold;
   background: transparent;
-  border: solid 1px black;
+  border: solid 1px whitesmoke;
   color:#6E57E0;
   border-radius: 10px;
   width: 100%;
@@ -902,7 +903,7 @@ textarea:focus~label{
 
 .button:hover{
     color: white;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
     border-style: solid;
     background-color: #6E57E0;
     padding: 8px;
@@ -912,9 +913,9 @@ textarea:focus~label{
 }
 
 .form h3{
-  color: #181A18;
-  margin-left: 250px;
-  margin-bottom: 35px;
+  color:#fff;
+  margin-left: 39%;
+  margin-bottom: 5%;
   
 }
 
