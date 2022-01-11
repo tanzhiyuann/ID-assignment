@@ -1,4 +1,4 @@
-# ID Assignment projeect 1 (personal profile)
+# ID Assignment project 1 (personal profile)
 
 <h3>Overview of the Project</h3>
 <p>This project aims to design and develop a front-end responsive website using HTML, CSS, Javascript and modern web development techniques. It would be a website about my own portfolio such as my skills and to showcase my coding skills by making the website attractive with animations and pictures and icons to build my website and make it look professional. The website is also to show my "employer" that with the skills i have, i would be a great employee to their companies.<p>
